@@ -1,10 +1,10 @@
 # Codex Frontend Craft v2
 
 ## Resumo (pt-BR)
-Super skill de design system para front-end no GPT-5 Codex. Versao com guias adicionais de comandos e anti-padroes para reforcar consistencia e qualidade visual.
+Super skill de design system para front-end no GPT-5 Codex. Versão com guias adicionais de comandos e anti-padrões para reforçar consistência e qualidade visual.
 
-## Descricao
-Projeto que define regras, criterios e fluxo de trabalho para gerar UI/UX de qualidade, evitando resultados genericos.
+## Descrição
+Projeto que define regras, critérios e fluxo de trabalho para gerar UI/UX de qualidade, evitando resultados genéricos.
 
 ## O que inclui
 - `skill.yaml` com metadados da skill
@@ -12,13 +12,13 @@ Projeto que define regras, criterios e fluxo de trabalho para gerar UI/UX de qua
 - `commands.md` com comandos e checks
 - `anti-patterns.md` com erros comuns e o que evitar
 
-## Instalacao passo a passo (pt-BR)
-1. Baixe o projeto (zip) ou clone o repositorio.
-2. Localize a pasta de skills do Codex (`$CODEX_HOME/skills`). Padrao:
+## Instalação passo a passo (pt-BR)
+1. Baixe o projeto (zip) ou clone o repositório.
+2. Localize a pasta de skills do Codex (`$CODEX_HOME/skills`). Padrão:
    - Windows: `%USERPROFILE%\\.codex\\skills`
    - macOS/Linux: `~/.codex/skills`
 3. Copie a pasta do projeto para `.../skills/codex-frontend-craft-v2`.
-4. Verifique se `skill.yaml`, `system.md`, `commands.md` e `anti-patterns.md` estao dentro dessa pasta.
+4. Verifique se `skill.yaml`, `system.md`, `commands.md` e `anti-patterns.md` estão dentro dessa pasta.
 
 Exemplos:
 ```bash
@@ -55,7 +55,7 @@ git clone https://github.com/bugeeapps/codex-frontend-craft-v2.git (Join-Path $s
 ## Uso no Codex CLI (pt-BR)
 1. Abra o Codex CLI.
 2. Ative a skill pelo nome `codex-frontend-craft-v2` (ex.: no prompt "Use a skill codex-frontend-craft-v2 para ...").
-3. Descreva o que voce precisa (tipo de tela, publico, stack, restricoes).
+3. Descreva o que você precisa (tipo de tela, público, stack, restrições).
 
 ## Using in Codex CLI (EN)
 1. Open Codex CLI.
@@ -63,9 +63,9 @@ git clone https://github.com/bugeeapps/codex-frontend-craft-v2.git (Join-Path $s
 3. Describe your UI requirements (page type, audience, stack, constraints).
 
 ## Exemplos de prompts (pt-BR)
-- "Use a skill codex-frontend-craft-v2 para criar um design system de UI com direcao visual clara."
-- "Gere uma tela de onboarding com animacoes leves e layout inesperado."
-- "Refatore o CSS para hierarquia visual melhor, sem mudar a logica."
+- "Use a skill codex-frontend-craft-v2 para criar um design system de UI com direção visual clara."
+- "Gere uma tela de onboarding com animações leves e layout inesperado."
+- "Refatore o CSS para hierarquia visual melhor, sem mudar a lógica."
 
 Exemplo completo de invocação:
 ```text
@@ -92,14 +92,14 @@ Eliminar aparência genérica.
 - "Improve spacing and hierarchy using Tailwind without touching business logic."
 
 ## Links
-- Repositorio: https://github.com/bugeeapps/codex-frontend-craft-v2
-- Versao v1: https://github.com/bugeeapps/codex-frontend-craft
+- Repositório: https://github.com/bugeeapps/codex-frontend-craft-v2
+- Versão v1: https://github.com/bugeeapps/codex-frontend-craft
 
-## Parametros da skill (pt-BR)
+## Parâmetros da skill (pt-BR)
 - name: `codex-frontend-craft-v2` (nome da skill no Codex CLI)
 - description: "Production-grade frontend with extreme design intentionality." (resumo do foco)
 - scope: `frontend`, `react`, `tailwind` (contextos onde aplica)
-- poder de fogo: pipeline tecnico com comandos + anti-padroes + checks para consistencia de design system (escala tipografica, hierarquia, grid, espacamento, tokens semanticos, paleta, estados, acessibilidade, motion e responsividade) em UI de producao
+- poder de fogo: pipeline técnico com comandos + anti-padrões + checks para consistência de design system (escala tipográfica, hierarquia, grid, espaçamento, tokens semânticos, paleta, estados, acessibilidade, motion e responsividade) em UI de produção
 
 ## Skill parameters (EN)
 - name: `codex-frontend-craft-v2` (skill name in Codex CLI)
