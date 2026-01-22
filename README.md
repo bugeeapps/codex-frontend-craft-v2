@@ -80,10 +80,10 @@ git clone https://github.com/bugeeapps/codex-frontend-craft-v2.git (Join-Path $s
 - name: `codex-frontend-craft-v2` (nome da skill no Codex CLI)
 - description: "Production-grade frontend with extreme design intentionality." (resumo do foco)
 - scope: `frontend`, `react`, `tailwind` (contextos onde aplica)
-- poder de fogo: guia completo com comandos e anti-padroes para reforcar consistencia e qualidade visual
+- poder de fogo: pipeline tecnico com comandos + anti-padroes + checks para consistencia de design system (tipografia, hierarquia, grid, tokens, estados) em UI de producao
 
 ## Skill parameters (EN)
 - name: `codex-frontend-craft-v2` (skill name in Codex CLI)
 - description: "Production-grade frontend with extreme design intentionality." (focus summary)
 - scope: `frontend`, `react`, `tailwind` (where it applies)
-- power level: full guide with commands and anti-patterns to enforce consistency and visual quality
+- power level: technical pipeline with commands + anti-patterns + checks for design-system consistency (typography, hierarchy, grid, tokens, states) in production UI
