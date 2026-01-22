@@ -69,7 +69,7 @@ git clone https://github.com/bugeeapps/codex-frontend-craft-v2.git (Join-Path $s
 
 Exemplo completo de invocação:
 ```text
-Use codex-frontend-craft.
+Use codex-frontend-craft-v2.
 
 Modo: craft:explore -> craft:proposal -> craft:build
 
@@ -86,6 +86,34 @@ Refinar visual, tipografia, espaçamento e hierarquia.
 Eliminar aparência genérica.
 ```
 
+3️⃣ Prompt CURTO para "deixar a página bonita" (copiar/colar)
+
+Esse é o atalho mental
+
+```text
+codex "
+Use codex-frontend-craft-v2.
+Modo: craft:build.
+
+Deixe esta página bonita.
+Sem alterar lógica.
+Sem layout genérico.
+"
+```
+
+Simples. Brutal. Funciona.
+
+4️⃣ Quer auditar antes de mudar?
+```text
+codex "
+Use codex-frontend-craft-v2.
+Modo: craft:audit.
+
+Analise esta página React/Tailwind
+e aponte todos os padrões genéricos.
+"
+```
+
 ## Example prompts (EN)
 - "Use the codex-frontend-craft-v2 skill to design a bold marketing page with a unique visual direction."
 - "Create a SaaS dashboard UI with a signature layout and strong typography."
@@ -94,6 +122,8 @@ Eliminar aparência genérica.
 ## Links
 - Repositório: https://github.com/bugeeapps/codex-frontend-craft-v2
 - Versão v1: https://github.com/bugeeapps/codex-frontend-craft
+
+Uso livre por Pedro Noronha.
 
 ## Parâmetros da skill (pt-BR)
 - name: `codex-frontend-craft-v2` (nome da skill no Codex CLI)
