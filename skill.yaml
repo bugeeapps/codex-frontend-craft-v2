@@ -1,0 +1,7 @@
+
+name: codex-frontend-craft
+description: Production-grade frontend with extreme design intentionality.
+scope:
+  - frontend
+  - react
+  - tailwind
